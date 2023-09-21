@@ -2,7 +2,7 @@
 	"name": "node-ts-starter",
 	"version": "1.0.0",
 	"description": "A simple NodeJS starter template with TypeScript, Prisma, Express, and more.",
-	"main": "./dist/server.js",
+	"main": "dist/server.js",
 	"scripts": {
 		"build": "rimraf dist && npx tsc",
 		"prestart": "npm run build",
